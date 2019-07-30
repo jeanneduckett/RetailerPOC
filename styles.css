@@ -1,5 +1,18 @@
+body {
+    font-family: 'Merriweather', Georgia, serif
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
-    flex-direction: vertical;
+    flex-direction: column;
+    align-content: center;
+}
+
+.qrPreviewVideo {
+    width: 100%;
+}
+
+#scanner {
+    width: 90%;
 }
