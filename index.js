@@ -1,5 +1,5 @@
 function scanQR() {
-    window.location.href = '/scanner.html';
+    window.location.href = './scanner.html';
 }
 
 //this function will be called when JsQRScanner is ready to use
