@@ -7,7 +7,7 @@ function JsQRScannerReady() {
     function onQRCodeScanned(scannedText) {
         if (jbScanner) {
             jbScanner.stopScanning();
-            if (confirm("Scanned this:\n" + scannedText)) {
+            if (confirm("Scanned this:\n" + scannedText + "&linktype=recallstatus")) {
                 window.location.href = 'https://www.adptts.com/align-probiotic';
             } else {
                 jbScanner.resumeScanning();
